@@ -22,6 +22,7 @@ const Catalog = () => {
                 className="w-full h-48 object-cover"
               />
               <div className="p-4">
+
                 <h3 className="text-xl font-semibold mb-2">Toyota Camry</h3>
                 <div className="flex justify-between items-center mb-3">
                   <span className="text-lg font-bold text-primary">5000 ₽/день</span>
@@ -30,7 +31,7 @@ const Catalog = () => {
                 <Button asChild className="w-full">
                   <Link to={`/catalog/${id}`}>Подробнее</Link>
                 </Button>
-              </div>
+
             </div>
           ))}
         </div>
